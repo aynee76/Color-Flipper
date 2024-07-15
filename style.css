@@ -1,0 +1,36 @@
+body {
+    transition: background-color 0.5s;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#color-display {
+    font-family: sans-serif;
+    background-color: white;
+    box-shadow: 0 0 20px #00000080;
+    padding: 4rem;
+    border-radius: 20px;
+    border: 8px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ncb {
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+}
+
+#ncb:hover {
+    background-color: #0f0e0e;
+}
